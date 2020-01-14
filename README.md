@@ -29,7 +29,7 @@ Click **Advanced** to show the other types of blocks available. Expand the ``||p
 
 ### ~
 
-Add a ``||pins:digitalWritePin||`` block to light the Red LED on pin 0
+Add a ``||pins:digitalWritePin||`` block to switch on the red light connected to pin 0.
 
 
 ```blocks
