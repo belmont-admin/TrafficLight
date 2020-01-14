@@ -52,5 +52,6 @@ basic.forever(() => {
 ```
 ## Step 4 @fullscreen
 
-Use the ``||Download||`` button to send your new code to the @boardname@ and check what happens.
+Use the ``||Download||`` button to send your new code to the @boardname@ and check what happens. Was it what you expected? If it wasn't how can you fix it?
+
 
