@@ -56,4 +56,8 @@ basic.forever(() => {
 
 Use the ``||Download||`` button to send your new code to the @boardname@ and check what happens. Was it what you expected? If it wasn't how can you fix it?
 
+## Step 5 @fullscreen
 
+Now write code so that your lights cycle through the standard traffic light sequence.
+
+When you have finished don't forget to **save** your code.
