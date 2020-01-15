@@ -61,3 +61,5 @@ Use the ``||Download||`` button to send your new code to the @boardname@ and che
 Now write code so that your lights cycle through the standard traffic light sequence.
 
 When you have finished don't forget to **save** your code.
+
+![Traffic light animation](https://github.com/belmont-admin/TrafficLight/raw/master/docs/static/traffic-lights-min.gif)
