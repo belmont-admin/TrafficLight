@@ -63,3 +63,46 @@ Now write code so that your lights cycle through the standard traffic light sequ
 When you have finished don't forget to **save** your code.
 
 ![Traffic light animation](https://github.com/belmont-admin/TrafficLight/raw/master/docs/static/traffic-lights-min.gif)
+
+## Step 6 @fullscreen
+
+Improve your traffic lights by creating a **delay** variable using the ``||variables:set delay to||`` block so you can easily adjust the length of the ``||basic:pause||`` and alter how quickly the lights change. 
+
+```blocks
+let delay = 500
+```
+Make it so you can change the delay up and down using the A and B buttons.
+
+```blocks
+input.onButtonPressed(Button.B, function () {
+    delay += 100
+})
+input.onButtonPressed(Button.A, function () {
+    delay += -100
+})
+```
+
+## Step 7 @fullscreen
+
+
+
+Now see if you can use the LEDs on the micro:bit itself to add a pedestrian crossing animation.
+
+Standing person
+```blocks
+basic.showLeds(`
+        . . . . .
+        . . . . .
+        . # . # #
+        # # # . .
+        . # . # #
+        `)
+```
+
+
+Walking person
+
+
+
+
+Remember the micro:bit is turned on its side so you'll need to rotate these
