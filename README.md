@@ -84,25 +84,12 @@ input.onButtonPressed(Button.A, function () {
 
 ## Step 7 @fullscreen
 
+Now see if you can use the ``||basic:showLeds||`` block to use the LEDs on the @boardname@ itself to add a pedestrian crossing animation.
 
+Remember the @boardname@ is turned on its side so you'll need to rotate the pixels 90 degrees.
 
-Now see if you can use the LEDs on the micro:bit itself to add a pedestrian crossing animation.
+## Step 8 @fullscreen
 
-Standing person
-```blocks
-basic.showLeds(`
-        . . . . .
-        . . . . .
-        . # . # #
-        # # # . .
-        . # . # #
-        `)
-```
+If you're feeling adventurous then finally add a countdown as well. Here's a link to a video of what it might look like:
 
-
-Walking person
-
-
-
-
-Remember the micro:bit is turned on its side so you'll need to rotate these
+https://youtu.be/GEoKefzK3mk
